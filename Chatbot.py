@@ -23,8 +23,8 @@ def open_chatbot_window():
 
     try:
         image = CTk.CTkImage(
-            light_image=Image.open("cute.png"),
-            dark_image=Image.open("cute.png"),
+            light_image=Image.open("icon.png"),
+            dark_image=Image.open("icon.png"),
             size=(50, 50)
         )
     except Exception as e:
